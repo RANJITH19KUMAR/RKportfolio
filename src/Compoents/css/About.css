@@ -1,0 +1,131 @@
+.about-section{
+    padding:50px 0;
+    background:#111827;
+    color:white;
+}
+
+.section-title{
+    font-size:48px;
+    font-weight:700;
+}
+
+.section-title span{
+    color:#8B5CF6;
+}
+
+.about-text{
+    color:#94A3B8;
+    line-height:1.9;
+    margin-top:20px;
+    margin-bottom:35px;
+}
+
+.skills-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.skill-box{
+
+    background:#1E293B;
+
+    padding:15px 25px;
+
+    border-radius:12px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    transition:.4s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.skill-box svg{
+
+    color:#8B5CF6;
+
+    font-size:24px;
+
+}
+
+.skill-box:hover{
+
+    transform:translateY(-8px);
+
+    background:#8B5CF6;
+
+    color:white;
+
+}
+
+.skill-box:hover svg{
+
+    color:white;
+
+}
+
+.about-card{
+
+    background:#1E293B !important;
+
+    border:none;
+
+    color:white !important;
+
+    border-radius:18px;
+
+    transition:.4s;
+
+    box-shadow:0 0 20px rgba(139,92,246,.15);
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 35px rgba(139,92,246,.45);
+
+}
+
+.about-card h3{
+
+    color:#8B5CF6;
+
+    font-size:50px;
+
+}
+
+.about-card h4{
+
+    color:#8B5CF6;
+
+}
+
+@media(max-width:991px){
+
+.about-section{
+
+text-align:center;
+
+}
+
+.skills-grid{
+
+justify-content:center;
+
+}
+
+.about-card{
+
+margin-top:25px;
+
+}
+
+}

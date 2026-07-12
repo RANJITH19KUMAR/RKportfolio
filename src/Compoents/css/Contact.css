@@ -1,0 +1,75 @@
+.contact-section{
+    background:#0F172A;
+    padding:100px 0;
+}
+
+.contact-card{
+    background:#1E293B !important;
+    border:none;
+    border-radius:20px;
+    color:white !important;
+    height:100%;
+    transition:.4s;
+}
+
+.contact-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(139,92,246,.35);
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:20px 0;
+    color:#CBD5E1;
+}
+
+.contact-item svg{
+    color:#8B5CF6;
+    font-size:22px;
+}
+
+.social-links{
+    margin-top:30px;
+}
+
+.social-links a{
+    color:#fff;
+    font-size:30px;
+    margin-right:20px;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    color:#8B5CF6;
+    transform:translateY(-5px);
+}
+
+.form-control{
+    background:#111827;
+    border:1px solid #334155;
+    color:white;
+}
+
+.form-control:focus{
+    background:#111827;
+    color:white;
+    border-color:#8B5CF6;
+    box-shadow:none;
+}
+
+.form-control::placeholder{
+    color:#94A3B8;
+}
+
+.send-btn{
+    background:#8B5CF6;
+    border:none;
+    padding:12px 30px;
+    border-radius:10px;
+}
+
+.send-btn:hover{
+    background:#7C3AED;
+}

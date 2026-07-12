@@ -1,0 +1,230 @@
+.hero-section {
+   Background : #0F172A;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.hero-section::before{
+
+content:"⚛";
+
+position:absolute;
+
+left:15%;
+
+top:15%;
+
+font-size:55px;
+
+color:#ffffff10;
+
+animation:float 6s infinite;
+
+}
+
+.hero-section::after{
+
+content:"</>";
+
+position:absolute;
+
+right:18%;
+
+top:25%;
+
+font-size:50px;
+
+color:#ffffff10;
+
+animation:float 8s infinite;
+
+}
+.hello{
+
+color:#8B5CF6;
+
+font-size:36px;
+
+font-weight:700;
+
+}
+
+.name{
+
+font-size:60px;
+
+font-weight:700;
+
+line-height:1.1;
+
+color: #fff;
+
+}
+
+.role{
+
+font-size:38px;
+
+font-weight:700;
+
+color: #fff;
+
+}
+
+.description{
+
+font-size:18px;
+
+color: #94A3B8;
+
+line-height:1.8;
+
+max-width:650px;
+
+}
+
+
+.profile-image {
+    width: 360px;
+    height: 360px;
+    border-radius: 30px;
+    object-fit: cover;
+    border: 6px solid #38bdf8;
+    box-shadow: 0 0 30px #38bdf8;
+    animation: float 3s ease-in-out infinite;
+    transition: .4s;
+}
+
+.profile-image:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 60px cyan;
+}
+
+.hire-btn{
+
+background:linear-gradient(135deg,#8B5CF6,#A855F7);
+
+border:none;
+
+padding:12px 28px;
+
+border-radius:12px;
+
+font-weight:600;
+
+transition:.4s;
+
+}
+
+.hire-btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 15px 30px rgba(139,92,246,.45);
+
+}
+
+.social-icons svg{
+
+font-size:35px;
+
+margin-right:22px;
+
+color:#cbd5e1;
+
+transition:.4s;
+
+cursor:pointer;
+
+}
+
+.social-icons svg:hover{
+
+color:#A855F7;
+
+transform:translateY(-8px);
+
+}
+
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+
+    .hero-section {
+        text-align: center;
+        margin-top:50px;
+        padding: 120px 20px 60px;
+    }
+
+    .profile-image {
+        width: 240px;
+        height: 240px;
+        margin-bottom: 30px;
+    }
+
+    .hello{
+
+color: #8B5CF6;
+
+font-size:30px;
+
+font-weight:600;
+padding:10px
+
+}
+
+.name{
+
+font-size:40px;
+
+font-weight:700;
+
+line-height:1.1;
+
+color: #c0b8c9;
+
+}
+
+.role{
+
+font-size:28px;
+
+font-weight:700;
+
+color: #a57cd4;
+
+}
+
+.description{
+
+font-size:20px;
+
+color: #94A3B8;
+
+line-height:1.8;
+
+max-width:650px;
+
+}
+    .social-icons {
+        justify-content: center;
+    }
+}
