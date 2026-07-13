@@ -1,5 +1,6 @@
 .experience-section{
-    background:#0F172A;
+    background:var(--bg);
+    color:var(--text);
     padding:100px 0;
     color:white;
 }

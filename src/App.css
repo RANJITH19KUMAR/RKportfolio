@@ -1,0 +1,23 @@
+.dark-theme{
+    --bg:#0F172A;
+    --card:#1E293B;
+    --text:#ffffff;
+    --accent:#8B5CF6;
+
+    background:var(--bg);
+    color:var(--text);
+    transition:.4s;
+    min-height:100vh;
+}
+
+.light-theme{
+    --bg:#F8FAFC;
+    --card:#ffffff;
+    --text:#0F172A;
+    --accent:#8B5CF6;
+
+    background:var(--bg);
+    color:var(--text);
+    transition:.4s;
+    min-height:100vh;
+}

@@ -21,7 +21,7 @@ const Footer = () => {
           <Col lg={5}>
 
             <h2 className="footer-logo">
-              Ranjith<span>Kumar</span>
+              Ranjith<span> Kumar</span>
             </h2>
 
             <h5>Java Full Stack Developer</h5>

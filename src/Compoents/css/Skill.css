@@ -1,12 +1,14 @@
 .skills-section{
-    background:#0F172A;
+   
+    background:var(--bg);
     padding:100px 0;
+    color:var(--text);
 }
 
 .section-title{
     text-align:center;
     font-size:48px;
-    color:white;
+   color:var(--text);
     font-weight:700;
 }
 
@@ -20,7 +22,9 @@
     border:1px solid rgba(255,255,255,.08);
     border-radius:20px;
     overflow:hidden;
+    background:var(--card);
 }
+
 
 .skill-card .card-body{
     background:#1E293B !important;

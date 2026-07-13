@@ -69,3 +69,31 @@ margin:15px;
 padding:10px 25px;
 
 }
+.theme-btn{
+
+    width:45px;
+    height:45px;
+
+    border-radius:50%;
+    border:none;
+
+    background:#8B5CF6 !important;
+
+    color:white !important;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:20px;
+
+    transition:.4s;
+}
+
+.theme-btn:hover{
+
+    transform:rotate(180deg);
+
+    background:#7C3AED !important;
+
+}

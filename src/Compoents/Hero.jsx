@@ -32,7 +32,7 @@ const Hero = () => {
               efficient backend architecture.
             </p>
 
-            <Button className="hero-btn me-3">
+            <Button href="#contact" className="hero-btn me-3">
               Hire Me
             </Button>
 

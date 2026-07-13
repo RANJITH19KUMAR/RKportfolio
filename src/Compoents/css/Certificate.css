@@ -1,5 +1,6 @@
 .certification-section{
-    background:#0F172A !important;
+    background:var(--bg);
+    color:var(--text);
     padding:10px 0;
 }
 

@@ -1,16 +1,19 @@
 .projects-section{
-    background:#0F172A;
+    background:var(--bg);
+    color:var(--text);
     padding:10px 0;
 }
 
 .project-card{
     background:#1E293B !important;
     color:white !important;
+    
     border:none;
     border-radius:18px;
     overflow:hidden;
     transition:.4s;
     height:100%;
+     background:var(--card);
 }
 
 .project-card:hover{

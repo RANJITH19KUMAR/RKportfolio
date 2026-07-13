@@ -1,13 +1,18 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar, Button } from "react-bootstrap";
+import { FaMoon, FaSun } from "react-icons/fa";
+
 import "/src/Compoents/css/Navbar.css";
 
-function Navbars() {
+function Navbars({ darkMode, toggleTheme }) {
+
   return (
-    <Navbar expand="lg" fixed="top" className="custom-nav  m-3">
+
+    <Navbar expand="lg" fixed="top" className="custom-nav m-3">
+
       <Container>
 
-        <Navbar.Brand href="#">
-          <span className="logo ">RK Portfolio</span>
+        <Navbar.Brand href="#home">
+          <span className="logo">RK Portfolio</span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,10 +33,19 @@ function Navbars() {
 
           </Nav>
 
+          <Button
+            className="theme-btn ms-lg-3 mt-3 mt-lg-0"
+            onClick={toggleTheme}
+          >
+            {darkMode ? <FaSun /> : <FaMoon />}
+          </Button>
+
         </Navbar.Collapse>
 
       </Container>
+
     </Navbar>
+
   );
 }
 
