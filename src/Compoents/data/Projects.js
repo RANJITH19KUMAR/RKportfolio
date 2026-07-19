@@ -17,7 +17,7 @@ const projects = [
       "CSS"
     ],
     github: "https://github.com/yourusername/fuel-delivery-management",
-    live: "#",
+    live: "https://yourfuelbook.netlify.app/",
   },
 
   {
@@ -53,5 +53,6 @@ const projects = [
     live: "https://gomovienew.netlify.app/",
   },
 ];
+
 
 export default projects;
