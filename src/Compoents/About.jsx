@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { FaJava, FaReact, FaDatabase } from "react-icons/fa";
-import { SiSpringboot, SiBootstrap, SiHtml5,SiCss } from "react-icons/si";
+import { SiSpringboot, SiBootstrap, SiHtml5,SiCss,SiJavascript } from "react-icons/si";
 import "/src/Compoents/css/About.css"
 
 const About = () => {
