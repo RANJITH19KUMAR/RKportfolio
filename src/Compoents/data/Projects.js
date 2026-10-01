@@ -20,7 +20,7 @@ const projects = [
       "Railway"
     ],
     github: "https://github.com/RANJITH19KUMAR/Village-Care",
-    live: "village-care-production.up.railway.app",
+    live: "https://village-care-production.up.railway.app/",
   },
 
   {
