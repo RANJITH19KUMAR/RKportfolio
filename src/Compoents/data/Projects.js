@@ -3,8 +3,28 @@ import ev from "/src/assets/Ranjith_Pro.jpeg";
 import movie from "/src/assets/Ranjith_Pro.jpeg";
 
 const projects = [
+
   {
     id: 1,
+    title: "Village Care - Complaint System",
+    image: fuel,
+    description:
+      "Full-stack complaint tracking app for villages, built with Java, JDBC, and MySQL, deployed on Railway.",
+    tech: [
+      "Html",
+      "CSS",
+      "JavaScript",
+      "Java",
+      "JDBC",
+      "MySQL",
+      "Railway"
+    ],
+    github: "https://github.com/RANJITH19KUMAR/Village-Care",
+    live: "village-care-production.up.railway.app",
+  },
+
+  {
+    id: 2,
     title: "Fuel Delivery Management System",
     image: fuel,
     description:
@@ -20,24 +40,10 @@ const projects = [
     live: "https://yourfuelbook.netlify.app/",
   },
 
-  {
-    id: 2,
-    title: "EV Charging Finder & Booking",
-    image: ev,
-    description:
-      "Designed a modern EV charging station finder with station listing, booking interface, charging slot selection, pricing, and responsive UI. Frontend completed using React. ",
-    tech: [
-      "React",
-      "Bootstrap",
-      "JavaScript",
-      "Responsive Design"
-    ],
-    github: "https://github.com/yourusername/ev-charging-booking",
-    live: "#",
-  },
+
 
   {
-    id: 3,
+    id: 2,
     title: "Movie Management Platform",
     image: movie,
     description:
