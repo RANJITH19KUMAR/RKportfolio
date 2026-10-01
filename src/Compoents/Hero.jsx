@@ -36,7 +36,13 @@ const Hero = () => {
               Hire Me
             </Button>
 
-            <Button variant="outline-info">
+            <Button
+              variant="outline-info"
+              href="/Ranjith%20Developer%20Resume.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Download Resume
             </Button>
 
