@@ -13,6 +13,7 @@ import {
   SiSpringboot,
   SiMysql,
   SiPostman,
+  SiRailway,
   SiGithub,
   
 } from "react-icons/si";

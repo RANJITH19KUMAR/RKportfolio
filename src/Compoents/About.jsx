@@ -44,10 +44,8 @@ const About = () => {
                 <SiSpringboot />
                 Spring Boot
               </div>
-
-              <div className="skill-box">
-                <FaReact />
-                React
+               <div className="skill-box">
+                JDBC
               </div>
 
               <div className="skill-box">
@@ -67,7 +65,14 @@ const About = () => {
                 <SiCss />
                 CSS
               </div>
-
+               <div className="skill-box">
+                <SiJavascript />
+                JavaScript
+              </div>
+               <div className="skill-box">
+                <FaReact />
+                React
+              </div>
             </div>
 
           </Col>
