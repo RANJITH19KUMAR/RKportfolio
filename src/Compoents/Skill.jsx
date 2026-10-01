@@ -35,12 +35,12 @@ const Skill = () => {
             <Card className="skill-card">
               <Card.Body>
                 <h4>Frontend</h4>
-
-                <div className="skill-item"><FaReact /> React.js</div>
-                <div className="skill-item"><SiBootstrap /> Bootstrap</div>
                 <div className="skill-item"><FaHtml5 /> HTML5</div>
                 <div className="skill-item"><FaCss3Alt /> CSS3</div>
                 <div className="skill-item"><SiJavascript /> JavaScript</div>
+                <div className="skill-item"><SiBootstrap /> Bootstrap</div>
+                 <div className="skill-item"><FaReact /> React.js</div>
+                
 
               </Card.Body>
             </Card>
@@ -53,6 +53,7 @@ const Skill = () => {
                 <h4>Backend</h4>
 
                 <div className="skill-item"><FaJava /> Java</div>
+                <div className="skill-item">JDBC</div>
                 <div className="skill-item"><SiSpringboot /> Spring Boot</div>
                 <div className="skill-item">REST API</div>
                 <div className="skill-item">Hibernate</div>
@@ -66,9 +67,8 @@ const Skill = () => {
               <Card.Body>
 
                 <h4>Database</h4>
-
+                  <div className="skill-item">SQL</div>
                 <div className="skill-item"><SiMysql /> MySQL</div>
-                <div className="skill-item">SQL</div>
 
               </Card.Body>
             </Card>
@@ -84,6 +84,7 @@ const Skill = () => {
                 <div className="skill-item"><SiGithub /> GitHub</div>
                 {/* <div className="skill-item"><SiVisualstudiocode /> VS Code</div> */}
                 <div className="skill-item"><SiPostman /> Postman</div>
+                 <div className="skill-item"><SiRailway /> railway</div>
 
               </Card.Body>
             </Card>
