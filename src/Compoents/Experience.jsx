@@ -14,7 +14,7 @@ const experienceData = [
     title: "Frontend Project Development",
     subtitle: "Personal Projects",
     description:
-      "Developed Fuel Delivery Management, EV Charging Finder & Booking, and Movie Management applications using React, Bootstrap, JavaScript, HTML, and CSS."
+      "Developed Fuel Delivery Management, Movie Management applications using React, Bootstrap, JavaScript, HTML, and CSS."
   },
   {
     year: "2023",

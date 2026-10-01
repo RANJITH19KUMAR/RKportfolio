@@ -48,7 +48,7 @@ const Contact = () => {
 
                 <div className="contact-item">
                   <FaMapMarkerAlt />
-                  <span>Ariyalur, Tamil Nadu</span>
+                  <span>Ramapuram, Chennai, Tamil Nadu</span>
                 </div>
 
                 <div className="social-links">
